@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    background-color: #1a1818;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+}
+.container1{
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding:12px;
+    margin-left:800px;
+}
+
+.name{
+    margin-left: 40px;
+    font-size: xx-large;
+    font-weight: bold;
+    background: linear-gradient(to left, red, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.home{
+    margin-right:40px;
+    color: white;
+    text-decoration: none;
+}
+.home:hover {
+    cursor: pointer;
+}
+.resume{
+    margin-right:40px;
+    color: white;
+    text-decoration: none;
+}
+.resume:hover {
+    cursor: pointer;
+}
+.about1{
+    margin-right:40px;
+    color: white;
+    text-decoration: none;
+}
+.about1:hover {
+    cursor: pointer;
+}
+.project{
+    margin-right:40px;
+    text-decoration: none;
+    color: white;
+    /* margin-left: 40px; */
+}
+.project:hover {
+    cursor: pointer;
+}
+.experince{
+    margin-right:40px;
+}
+.experince:hover {
+    cursor: pointer;
+}
+.contact{
+    margin-right:40px;
+    color: white;
+    text-decoration: none;
+}
+.contact:hover {
+    cursor: pointer;
+}
+
+.projects{
+    height: 60vh;
+    width: 85vw;
+    /* background-color: #1a1a1a; */
+    margin-top: 40px;
+    background-color:#1a1818;
+    padding-top: 40px;
+    padding-left:40px;
+    margin-left:110px;
+    border-radius: 1rem;
+}
+
+.half-underline {
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(to left, red, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    position: relative;
+}
+
+.half-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -7px; /* Adjust based on desired underline position */
+    width: 50%;   /* This creates the half-underline */
+    height: 5px;  /* Adjust the thickness of the underline */
+    background: linear-gradient(to left, red, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    border-radius: 0.5rem;
+}
+
