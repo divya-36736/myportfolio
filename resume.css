@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    background-color: #1a1818;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+}
+.container1{
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding:12px;
+    margin-left:800px;
+}
+
+.name{
+    margin-left: 40px;
+    font-size: xx-large;
+    font-weight: bold;
+    background: linear-gradient(to left, red, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.home{
+    margin-right:40px;
+    color: white;
+    text-decoration: none;
+}
+.home:hover {
+    cursor: pointer;
+}
+.resume{
+    margin-right:40px;
+    color: white;
+    text-decoration: none;
+}
+.resume:hover {
+    cursor: pointer;
+}
+.about1{
+    margin-right:40px;
+    color: white;
+    text-decoration: none;
+}
+.about1:hover {
+    cursor: pointer;
+}
+.project{
+    margin-right:40px;
+    text-decoration: none;
+    color: white;
+    /* margin-left: 40px; */
+}
+.project:hover {
+    cursor: pointer;
+}
+.experince{
+    margin-right:40px;
+}
+.experince:hover {
+    cursor: pointer;
+}
+.contact{
+    margin-right:40px;
+    color: white;
+    text-decoration: none;
+}
+.contact:hover {
+    cursor: pointer;
+}
+
+.resume1{
+    width: 85vw;
+    height: 80vh;
+    margin-top: 40px;
+    background-color:#1a1818;
+    padding-top: 40px;
+    padding-left:40px;
+    margin-left:110px;
+    border-radius: 0.5rem;
+}
+
+.rsm1{
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(to top, red, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.education{
+    margin-left: 50px;
+    /* margin-top: 30px; */
+    color: white;
+
+
+}
+
+.edu{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.kla{
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.sclname{
+    margin-top: 8px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.year{
+    background: linear-gradient(to top, red, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.clg{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.last{
+    margin-top: 5px;
+}
+
+
+.contact1{
+    margin-top: 12px;
+    font-size: 15px;
+    font-weight: 12px;
+    color: white;
+
+}
+
+
+@media (max-width:384px){
+    .resume1{
+        height: 100vh;
+        width: 300px;
+        margin-top: -5px;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .container{
+        visibility: hidden;
+    }
+
+    .home{
+        visibility: visible;
+    }
+
+    
+}
+
+
